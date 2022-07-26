@@ -1,5 +1,9 @@
 import "./App.css";
 import UseFetchHook from "./customhook/UseFetchHook";
+import ChildLift from "./liftingstateup/ChildLift";
+import LiftStateChildToParent from "./liftingstateup/LiftStateChildToParent";
+import Forms from "./uncontrolled/Forms";
+import Uncontrolled from "./uncontrolled/Uncontrolled";
 import UseCallBackHook from "./useCallback/UseCallBackHook";
 import UseContextHook from "./useContext/UseContextHook";
 import UseEffectHook from "./useEffecthook/UseEffectHook";
@@ -44,6 +48,10 @@ function App() {
       <UseContextHook />
       <UseMemoHook />
       <UseCallBackHook />
+      <Forms />
+      <Uncontrolled />
+      <LiftStateChildToParent />
+      <ChildLift />
     </div>
   );
 }
